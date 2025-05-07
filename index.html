@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <script>
+        const savedTheme = localStorage.getItem('selectedTheme') || 'default';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        document.body.classList.add(`theme-${savedTheme}`);
+      </script>
+    <script src="https://cdn.tailwindcss.com"></script>      
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamixed - Library</title>
@@ -169,5 +175,20 @@
     </section>
     <script src="script.js"></script>
     <script src="login.js"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primaryLight: '#00bf63',
+                accentLight: '#7ed957',
+                bgLight: '#dfded7',
+                primaryDark: '#8c52ff',
+                bgDark: '#112241'
+              }
+            }
+          }
+        }
+      </script>
 </body>
 </html>

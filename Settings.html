@@ -5,52 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamixed - Settings</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel ="stylesheet" href="transitions.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="transitions.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
 </head>
 
 <body>
-    <aside>
-    <div class="app-container">
-        <div class="sidebar">
-            <div class="logo">
-                <div class="logo-image">
-                    <img src="Dynamixed New Logo.png" alt="Dynamixed Logo" width="32" height="32">
+        <div class="app-container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img src="Dynamixed New Logo.png" alt="Dynamixed Logo" width="48" height="48">
+                    </div>
+                    <span class="logo-text">Dynamixed</span>
                 </div>
-                <span class="logo-text">Dynamixed</span>
-            </div>
-            <a href="index.html" class="nav-item">
-                <i>📚</i> My Library
-            </a>
-        
-            <a href="Statistics.html" class="nav-item">
-                <i>📊</i> Stats
-            </a>
-            <a href="Settings.html" class="nav-item active">
-                <i>⚙️</i> Settings
-            </a>
-            <a href="About.html" class="nav-item">
-                <i>ℹ️</i> About
-            </a>
-            <a href="Login.html" class="nav-item">
-                <i>📪</i> Login
-            </a>
-            <a href="Contact.html" class="nav-item">
-                <i>📝</i> Contact Us
-            </a>
-            <div class="sidebar-footer">
-                <p>&copy; 2025 Dynamixed. All rights reserved.</p>
-            </div>
-        </div>
-   </div>
-   </aside>
+                <a href="index.html" class="nav-item">
+                    <i>📚</i> Library
+                </a>
+                <a href="Statistics.html" class="nav-item">
+                    <i>📊</i> Stats
+                </a>
+                <a href="Settings.html" class="nav-item">
+                    <i>⚙️</i> Settings
+                </a>
+                <a href="About.html" class="nav-item active">
+                    <i>ℹ️</i> About
+                </a>
+                <a href="Login.html" class="nav-item">
+                    <i>📪</i> Login
+                </a>
+                <a href="Contact.html" class="nav-item">
+                    <i>📝</i> Contact Us 
+                </a>
+                <div class="sidebar-footer">
+                    &copy; 2025 Dynamixed. All rights reserved.
+                </div>
+            </aside>
 
-   <main>
-        <div class="main-content">
+        <!-- Main Content -->
+        <main class="main-content">
             <div class="settings-container">
-             
+
                 <!-- Playback Settings -->
                 <section class="settings-section">
                     <h2>Playback</h2>
@@ -68,7 +64,7 @@
                         <input id="crossfade" type="range" min="0" max="12" value="0" class="setting-control">
                     </div>
                     <div class="setting-item">
-                        <label for="autoplay">Autoplay</label>
+                        <span>Autoplay</span>
                         <label class="toggle">
                             <input id="autoplay" type="checkbox">
                             <span class="toggle-slider"></span>
@@ -88,7 +84,7 @@
                         </select>
                     </div>
                     <div class="setting-item">
-                        <label for="show-playlist-desc">Show Playlist Descriptions</label>
+                        <span>Show Playlist Descriptions</span>
                         <label class="toggle">
                             <input id="show-playlist-desc" type="checkbox" checked>
                             <span class="toggle-slider"></span>
@@ -96,7 +92,7 @@
                     </div>
                 </section>
 
-                <!-- Downloads -->
+                <!-- Download Settings -->
                 <section class="settings-section">
                     <h2>Downloads</h2>
                     <div class="setting-item">
@@ -109,13 +105,13 @@
                     </div>
                     <div class="setting-item">
                         <label for="download-location">Download Location</label>
-                        <input id="download-location" type="text" class="setting-control" value="C:\Users\Music\Dynamixed" readonly>
+                        <input id="download-location" type="text" class="setting-control" value="C:\\Users\\Music\\Dynamixed" readonly>
                         <button id="change-folder-btn" class="change-folder-btn">Change</button>
                     </div>
                 </section>
 
-               <!--Themes-->
-               <section class="settings-section">
+                <!-- Theme Settings -->
+                <section class="settings-section">
                     <h2>Themes</h2>
                     <div class="setting-item">
                         <label for="theme-selector">Choose Theme</label>
@@ -128,19 +124,18 @@
                     </div>
                     <div class="setting-item" id="custom-theme-upload" style="display: none;">
                         <label for="theme-image">Upload Custom Theme</label>
-                        <input id="theme-image" type="file" accept="image/png, image/jpeg">
+                        <input id="theme-image" type="file" accept="image/png, image/jpeg" lang="en">
                     </div>
                 </section>
 
-                <!-- Save Settings Button -->
+                <!-- Save Button -->
                 <div class="settings-footer">
                     <button id="save-settings-btn" class="save-settings-btn">Save Settings</button>
                 </div>
             </div>
-        </div>
+        </main>
     </div>
-</main>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>

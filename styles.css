@@ -251,7 +251,12 @@ body {
     transform: translateX(8px);
 }
 
-.track-info {
+.track-info h3
+.track-info p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 12.5rem;
     display: flex;
     align-items: center;
     flex: 2;
@@ -405,6 +410,8 @@ footer {
     align-items: center;
     gap: 0.5rem;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    z-index: 1000;
 }
 
 .music-player.hidden {
@@ -418,7 +425,7 @@ footer {
 }
 
 .music-player .song-info img {
-    width: 60px;
+    width: 50px;
     height: 60px;
     border-radius: 4px;
     object-fit: cover;
@@ -448,7 +455,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    width: 100%;
+    width: 80%;
 }
 
 .music-player .progress {
@@ -464,7 +471,7 @@ footer {
     appearance: none;
     width: 12px;
     height: 12px;
-    background: #1db954; /* Spotify green */
+    background: #1db954; 
     border-radius: 50%;
     cursor: pointer;
 }
