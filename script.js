@@ -430,6 +430,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load settings on page load
     loadSettings();
     applyPlayerSettings();
+
+    // ACCOUNT MANAGEMENT LOGIC
+    document.getElementById('save-account-btn')?.addEventListener('click', () => {
+        const profilePicture = document.getElementById('profile-picture').files[0];
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirm-password').value;
+
+        if (password !== confirmPassword) {
+            alert('Passwords do not match!');
+            return;
+        }
+
+        // Simulate saving changes (replace with actual backend integration)
+        console.log('Profile Picture:', profilePicture);
+        console.log('New Username:', username);
+        console.log('New Password:', password);
+        alert('Account changes saved successfully!');
+    });
 });
 
 

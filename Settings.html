@@ -26,10 +26,10 @@
                 <a href="Statistics.html" class="nav-item">
                     <i>📊</i> Stats
                 </a>
-                <a href="Settings.html" class="nav-item">
+                <a href="Settings.html" class="nav-item active">
                     <i>⚙️</i> Settings
                 </a>
-                <a href="About.html" class="nav-item active">
+                <a href="About.html" class="nav-item ">
                     <i>ℹ️</i> About
                 </a>
                 <a href="Login.html" class="nav-item">
@@ -72,25 +72,7 @@
                     </div>
                 </section>
 
-                <!-- Playlist Settings -->
-                <section class="settings-section">
-                    <h2>Playlists</h2>
-                    <div class="setting-item">
-                        <label for="playlist-sorting">Default Sorting</label>
-                        <select id="playlist-sorting" class="setting-control">
-                            <option value="recent">Recently Added</option>
-                            <option value="alpha">Alphabetical</option>
-                            <option value="custom">Custom Order</option>
-                        </select>
-                    </div>
-                    <div class="setting-item">
-                        <span>Show Playlist Descriptions</span>
-                        <label class="toggle">
-                            <input id="show-playlist-desc" type="checkbox" checked>
-                            <span class="toggle-slider"></span>
-                        </label>
-                    </div>
-                </section>
+         
 
                 <!-- Download Settings -->
                 <section class="settings-section">
@@ -125,6 +107,30 @@
                     <div class="setting-item" id="custom-theme-upload" style="display: none;">
                         <label for="theme-image">Upload Custom Theme</label>
                         <input id="theme-image" type="file" accept="image/png, image/jpeg" lang="en">
+                    </div>
+                </section>
+
+                <!-- Account Management Settings -->
+                <section class="settings-section">
+                    <h2>Account Management</h2>
+                    <div class="setting-item">
+                        <label for="profile-picture">Profile Picture</label>
+                        <input id="profile-picture" type="file" accept="image/png, image/jpeg" class="setting-control">
+                    </div>
+                    <div class="setting-item">
+                        <label for="username">Change Username</label>
+                        <input id="username" type="text" class="setting-control" placeholder="Enter new username">
+                    </div>
+                    <div class="setting-item">
+                        <label for="password">Change Password</label>
+                        <input id="password" type="password" class="setting-control" placeholder="Enter new password">
+                    </div>
+                    <div class="setting-item">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input id="confirm-password" type="password" class="setting-control" placeholder="Confirm new password">
+                    </div>
+                    <div class="settings-footer">
+                        <button id="save-account-btn" class="save-settings-btn">Save Changes</button>
                     </div>
                 </section>
 

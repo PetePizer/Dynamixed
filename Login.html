@@ -9,45 +9,79 @@
   <link rel ="stylesheet" href="transitions.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!--Inline styling for first priority in the Login-->
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+    .form-container {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .form-container h2 {
+      margin-bottom: 20px;
+    }
+    .form-container input {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .form-container button:hover {
+      background-color: #06dc09;
+    }
+    .switch-text {
+      margin-top: 10px;
+    }
+    .switch-text span {
+      color: #007bff;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const authForm = document.getElementById('auth-form');
+      authForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        // Simulate login validation (replace with actual backend validation if needed)
+        if (username && password) {
+          alert(`Welcome, ${username}! Redirecting to the library...`);
+          window.location.href = 'index.html'; // Redirect to the index page
+        } else {
+          alert('Please fill out all required fields.');
+        }
+      });
+    });
+  </script>
 </head>
 <body>
-  
-<!--Sidebar-->
-<aside>
-<div class="sidebar">
-    <div class="logo">
-        <div class="logo-image">
-            <img src="Dynamixed New Logo.png" alt="Dynamixed Logo" width="48" height="48">
-        </div>
-        <span class="logo-text">Dynamixed</span>
-    </div>
-    <a href="index.html" class="nav-item active">
-        <i>📚</i> Library
-    </a>
-    <a href="Statistics.html" class="nav-item">
-        <i>📊</i> Stats
-    </a>
-    <a href="Settings.html" class="nav-item">
-        <i>⚙️</i> Settings
-    </a>
-    <a href="About.html" class="nav-item">
-        <i>ℹ️</i> About
-    </a>
-    <a href="Login.html" class="nav-item">
-        <i>📪</i> Login
-    </a>
-    <a href="Contact.html" class="nav-item">
-        <i>📝</i> Contact Us
-    </a>
-    <div class="sidebar-footer">
-        <p>&copy; 2025 Dynamixed. All rights reserved.</p>
-    </div>
-</aside>
-</div>
-
-    <!--Login Container-->
-    <main>
-    <div class="form-container">
+  <div class="form-container">
     <h2 id="form-title">Login</h2>
     <form id="auth-form">
       <input type="text" id="username" placeholder="Username" required>
@@ -56,11 +90,6 @@
       <p class="switch-text">Don't have an account? <span id="switch-link">Sign Up</span></p>
     </form>
   </div>
-</main>
-
-
-
-
   <script src="script.js"></script>
 </body>
 </html>
