@@ -1,0 +1,347 @@
+# Code Citations
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            <option value="
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            <option value="light">Light
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            <option value="light">Light</option>
+                
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            <option value="light">Light</option>
+                            
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            <option value="light">Light</option>
+                            <option value="
+```
+
+
+## License: unknown
+https://github.com/RympeR/gpt-extension-themes/blob/05231a833e940ba44176645e804a4bd505cd5b5a/popup.html
+
+```
+id="theme-selector">
+                            <option value="default">Default</option>
+                            <option value="dark">Dark</option>
+                            <option value="light">Light</option>
+                            <option value="custom">Custom
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file &&
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type ===
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === '
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === 'image/png'))
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+            const
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+            const reader = new File
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+            const reader = new FileReader();
+            
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+            const reader = new FileReader();
+            reader.on
+```
+
+
+## License: unknown
+https://github.com/srishakthivarshini/WebproblemSolving/blob/1f71951864a728228bbf1772701dc54c25374979/imageuploadpreview
+
+```
+) => {
+        const file = e.target.files[0];
+        if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+            const reader = new FileReader();
+            reader.onload = (
+```
+

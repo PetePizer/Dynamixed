@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamixed - Library</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Dynamixed Music Library - Discover, play, and manage your music collection.">
+</head>
+<body>
+    <main>
+        <section class="app-container">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img src="Dynamixed New Logo.png" alt="Dynamixed Logo" width="48" height="48">
+                    </div>
+                    <span class="logo-text">Dynamixed</span>
+                </div>
+                <a href="index.html" class="nav-item active">
+                    <i>📚</i> Library
+                </a>
+                <a href="Statistics.html" class="nav-item">
+                    <i>📊</i> Stats
+                </a>
+                <a href="Settings.html" class="nav-item">
+                    <i>⚙️</i> Settings
+                </a>
+                <a href="About.html" class="nav-item">
+                    <i>ℹ️</i> About
+                </a>
+                <a href="Login.html" class="nav-item">
+                    <i>📪</i> Login
+                </a>
+                <a href="Contact.html" class="nav-item">
+                    <i>📝</i> Contact Us
+                </a>
+                <div class="sidebar-footer">
+                    <p>&copy; 2025 Dynamixed. All rights reserved.</p>
+                </div>
+            </div>
+            <!--Dashboard-->
+            <div class="main-content">
+                <div class="header">
+                    <h1 class="page-title">My Library</h1>
+                    <div class="search-upload">
+                        <div class="search-bar">
+                            <i class='bx bx-search'></i>
+                            <input type="text" id="searchInput" placeholder="Search for songs, artists, or albums..." aria-label="Search music library">
+                            <button class="clear-search" aria-label="Clear search">
+                                <i class='bx bxs-x-square'></i>
+                            </button>
+                            <div class="search-suggestions" id="searchSuggestions"></div>
+                        </div>
+                        <button class="upload-btn">
+                            <i>+</i> Upload music
+                        </button>
+                    </div>
+                </div>
+                <div class="tracks-container scrollable">
+                    <!-- Track 1 -->
+                    <div class="track-item">
+                        <div class="track-info">
+                            <img src="Wildflowers.jpg" alt="Album cover" class="track-img">
+                            <div class="track-details">
+                                <div class="track-title">Wildflowers of California</div>
+                                <div class="track-artist">Billy Jean</div>
+                            </div>
+                        </div>
+                        <div class="track-duration">3:45</div>
+                        <div class="track-data">2 days ago</div>
+                        <button class="play-btn" aria-label="Play track" data-src="audio/wildflower-wishes-249592.mp3" data-title="Wildflowers of California" data-artist="Billy Jean" data-cover="Wildflowers.jpg">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                    <!-- Track 2 -->
+                    <div class="track-item">
+                        <div class="track-info">
+                            <img src="Tower.jpg" alt="Album cover" class="track-img">
+                            <div class="track-details">
+                                <div class="track-title">Night Towers</div>
+                                <div class="track-artist">Charlie Benson</div>
+                            </div>
+                        </div>
+                        <div class="track-duration">4:05</div>
+                        <div class="track-data">Jun 16, 2023</div>
+                        <button class="play-btn" aria-label="Play track" data-src="audio/sonic-skyscraper-207803.mp3" data-title="Night Towers" data-artist="Charlie Benson" data-cover="Tower.jpg">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                    <!-- Track 3 -->
+                    <div class="track-item">
+                        <div class="track-info">
+                            <img src="Winter.jpg" alt="Snowy Trees" class="track-img">
+                            <div class="track-details">
+                                <div class="track-title">Winter</div>
+                                <div class="track-artist">Gary Valor</div>
+                            </div>
+                        </div>
+                        <div class="track-duration">2:50</div>
+                        <div class="track-data">May 2, 2023</div>
+                        <button class="play-btn" aria-label="Play track" data-src="audio/winter-retrowave-243694.mp3" data-title="Winter" data-artist="Gary Valor" data-cover="Winter.jpg">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                    <!-- Track 4 -->
+                    <div class="track-item">
+                        <div class="track-info">
+                            <img src="Run.jpg" alt="Album cover" class="track-img">
+                            <div class="track-details">
+                                <div class="track-title">Risk</div>
+                                <div class="track-artist">Patrick Ono</div>
+                            </div>
+                        </div>
+                        <div class="track-duration">3:15</div>
+                        <div class="track-data">Jan 24, 2023</div>
+                        <button class="play-btn" aria-label="Play track" data-src="audio/risk-136788.mp3" data-title="Risk" data-artist="Patrick Ono" data-cover="Run.jpg">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                    <!-- Track 5 -->
+                    <div class="track-item">
+                        <div class="track-info">
+                            <img src="Memories.jpg" alt="Album cover" class="track-img">
+                            <div class="track-details">
+                                <div class="track-title">Alone</div>
+                                <div class="track-artist">Mark Stanley</div>
+                            </div>
+                        </div>
+                        <div class="track-duration">4:20</div>
+                        <div class="track-data">Jan 6, 2023</div>
+                        <button class="play-btn" aria-label="Play track" data-src="audio/alone-296348.mp3" data-title="Alone" data-artist="Mark Stanley" data-cover="Memories.jpg">
+                            <i class='bx bx-play'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="music-player hidden">
+        <button id="close-player" aria-label="Close player" class="close-btn">
+            <i class='bx bx-x'></i>
+        </button>
+        <div class="song-info">
+            <img src="default-album.jpg" alt="Cover" id="player-cover" />
+            <div class="details">
+                <h4 id="player-title">No track playing</h4>
+                <p id="player-artist">--</p>
+            </div>
+        </div>
+        <div class="controls">
+            <span class="time current">0:00</span>
+            <div class="progress-container">
+                <input type="range" class="progress" value="0" max="100" />
+            </div>
+            <span class="time total">0:00</span>
+            <div class="player-buttons">
+                <button id="prev" aria-label="Previous"><i class='bx bx-skip-previous'></i></button>
+                <button id="play" aria-label="Play"><i class='bx bx-play-circle'></i></button>
+                <button id="next" aria-label="Next"><i class='bx bx-skip-next'></i></button>
+            </div>
+        </div>
+        <audio id="audio"></audio>
+    </section>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

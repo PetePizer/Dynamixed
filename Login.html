@@ -1,0 +1,66 @@
+<!-- login-signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamixed - Login/Signup</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel ="stylesheet" href="transitions.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+<!--Sidebar-->
+<aside>
+<div class="sidebar">
+    <div class="logo">
+        <div class="logo-image">
+            <img src="Dynamixed New Logo.png" alt="Dynamixed Logo" width="48" height="48">
+        </div>
+        <span class="logo-text">Dynamixed</span>
+    </div>
+    <a href="index.html" class="nav-item active">
+        <i>📚</i> Library
+    </a>
+    <a href="Statistics.html" class="nav-item">
+        <i>📊</i> Stats
+    </a>
+    <a href="Settings.html" class="nav-item">
+        <i>⚙️</i> Settings
+    </a>
+    <a href="About.html" class="nav-item">
+        <i>ℹ️</i> About
+    </a>
+    <a href="Login.html" class="nav-item">
+        <i>📪</i> Login
+    </a>
+    <a href="Contact.html" class="nav-item">
+        <i>📝</i> Contact Us
+    </a>
+    <div class="sidebar-footer">
+        <p>&copy; 2025 Dynamixed. All rights reserved.</p>
+    </div>
+</aside>
+</div>
+
+    <!--Login Container-->
+    <main>
+    <div class="form-container">
+    <h2 id="form-title">Login</h2>
+    <form id="auth-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <p class="switch-text">Don't have an account? <span id="switch-link">Sign Up</span></p>
+    </form>
+  </div>
+</main>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

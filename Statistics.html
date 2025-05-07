@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamixed - Statistics</title>
+    <link rel="stylesheet" href="transitions.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="Dynamixed New Logo.png" alt="Dynamixed Logo" width="48" height="48">
+                </div>
+                <span class="logo-text">Dynamixed</span>
+            </div>
+            <a href="index.html" class="nav-item">
+                <i>📚</i> Library
+            </a>
+            <a href="Statistics.html" class="nav-item active">
+                <i>📊</i> Stats
+            </a>
+            <a href="Settings.html" class="nav-item">
+                <i>⚙️</i> Settings
+            </a>
+            <a href="About.html" class="nav-item">
+                <i>ℹ️</i> About
+            </a>
+            <a href="Login.html" class="nav-item">
+                <i>📪</i> Login
+            </a>
+            <a href="Contact.html" class="nav-item">
+                <i>📝</i> Contact Us 
+            <div class="sidebar-footer">
+                <p>&copy; 2025 Dynamixed. All rights reserved.</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header class="header">
+                <h1 class="page-title">Statistics</h1>
+            </header>
+
+            <!-- Stats Cards -->
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <i class='bx bx-play stat-icon'></i>
+                        <span class="stat-title">Total Plays</span>
+                    </div>
+                    <div class="stat-value">1,234</div>
+                    <div class="stat-description">Last 30 days</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <i class='bx bx-time stat-icon'></i>
+                        <span class="stat-title">Listening Time</span>
+                    </div>
+                    <div class="stat-value">47h</div>
+                    <div class="stat-description">This month</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <i class='bx bx-music stat-icon'></i>
+                        <span class="stat-title">Top Genre</span>
+                    </div>
+                    <div class="stat-value">Pop</div>
+                    <div class="stat-description">Based on your library</div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2 class="chart-title">Listening Activity</h2>
+                    <span class="chart-period">Last 7 days</span>
+                </div>
+                <canvas id="activityChart"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2 class="chart-title">Top Artists</h2>
+                    <span class="chart-period">This month</span>
+                </div>
+                <canvas id="artistsChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Music Player -->
+        <div class="music-player hidden">
+            <div class="song-info">
+                <img src="default-album.jpg" alt="Album Cover" id="playerCover">
+                <div class="details">
+                    <h4 id="playerTitle">No track playing</h4>
+                    <p id="playerArtist">--</p>
+                </div>
+            </div>
+            <div class="controls">
+                <span class="time current">0:00</span>
+                <input type="range" class="progress" value="0" max="100" />
+                <span class="time total">0:00</span>
+            </div>
+            <div class="player-buttons">
+                <button id="prev" aria-label="Previous"><i class='bx bx-skip-previous'></i></button>
+                <button id="play" aria-label="Play"><i class='bx bx-play-circle'></i></button>
+                <button id="next" aria-label="Next"><i class='bx bx-skip-next'></i></button>
+            </div>
+            <audio id="audio"></audio>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
